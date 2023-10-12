@@ -11,12 +11,7 @@ $resulti = CRest::call(
 	'placement.bind',
 	[
 		 'PLACEMENT' => 'CRM_DEAL_DETAIL_TOOLBAR',
-		 'HANDLER' => 'https://bx24.kitchenbecker.ru/local/php_interface/classes/CallManager_designer/placement/placement.php',
-		 'ru' => [
-            'TITLE' => 'жмай на кнопка',
-            'DESCRIPTION' => 'описание',
-            'GROUP_NAME' => 'группа',
-         ],
+		 'HANDLER' => 'https://bx24.kitchenbecker.ru/local/php_interface/classes/CallManager_designer/placement/placement.php'
 	]
 );
 
